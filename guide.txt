@@ -1,0 +1,14 @@
+dev@dev-machine:/home/cx-components/storage$ go mod init github.com/maxwellzp/storage
+go: creating new go.mod: module github.com/maxwellzp/storage
+go: to add module requirements and sums:
+        go mod tidy
+dev@dev-machine:/home/cx-components/storage$ 
+
+
+dev@dev-machine:/home/cx-components/storage$ go get github.com/google/uuid
+
+go: added github.com/google/uuid v1.3.0
+dev@dev-machine:/home/cx-components/storage$ 
+
+
+dev@dev-machine:/home/cx-components/storage$ make run
